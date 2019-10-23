@@ -32,7 +32,6 @@ set cntrparam levels discrete -0.00
 #set xtics ("A" -0.577 ,"K" -0.3333, "M" 0.0, "K" 0.333, "A" .577)
 #set ytics ("A" -0.577 ,"M" -.288675, "K" 0.0, "M" .288675, "A" .577)
 #set tics out
-
 #unset ytics
 #unset xtics
 #set dgrid3d 100,100
@@ -41,5 +40,3 @@ set cntrparam levels discrete -0.00
 #splot 'gnu2Dcu35.d' using 1:2:3  with lines ls 1
 #splot 'gnu2Dcu31.d' using 1:2:3  with lines ls 1 ,'gnu2Dcu33.d' using 1:2:3  with lines ls 1,'gnu2Dcu35.d' using 1:2:3  with lines ls 1,'gnu2Dcu37.d' using 1:2:3  with lines ls 1,'gnu2Dcu39.d' using 1:2:3  with lines ls 1
 splot 'band_50.dat' using 1:2:3   ,'band_51.dat' using 1:2:3  ,'band_52.dat' using 1:2:3  ,'band_53.dat' using 1:2:3  ,'band_54.dat' using 1:2:3  ,'band_55.dat' using 1:2:3  ,'band_56.dat' using 1:2:3  ,'band_57.dat' using 1:2:3  ,'band_58.dat' using 1:2:3  ,'band_59.dat' using 1:2:3  ,'band_60.dat' using 1:2:3  ,'band_61.dat' using 1:2:3  
-#splot 'gnu2Dcu31.d' using 1:2:3  with lines ls 1 ,'gnu2Dcu31.d' using 1:2:3  with lines ls 1,'gnu2Dcu32.d' using 1:2:3  with lines ls 1,'gnu2Dcu33.d' using 1:2:3  with lines ls 1,'gnu2Dcu34.d' using 1:2:3  with lines ls 1,'gnu2Dcu35.d' using 1:2:3  with lines ls 1,'gnu2Dcu36.d' using 1:2:3  with lines ls 1,'gnu2Dcu37.d' using 1:2:3  with lines ls 1,'gnu2Dcu38.d' using 1:2:3  with lines ls 1,'gnu2Dcu39.d' using 1:2:3  with lines ls 1,'gnu2Dcu40.d' using 1:2:3  with lines ls 1,'gnu2Dcu40.d' using 1:2:3  with lines ls 1
-#splot 'gnu2Dcu30.d' using 1:2:3  with dots,'gnu2Dcu31.d' using 1:2:3  with dots,'gnu2Dcu32.d' using 1:2:3  with dots,'gnu2Dcu33.d' using 1:2:3  with dots,'gnu2Dcu34.d' using 1:2:3  with dots,'gnu2Dcu35.d' using 1:2:3  with dots,'gnu2Dcu36.d' using 1:2:3  with dots,'gnu2Dcu37.d' using 1:2:3  with dots,'gnu2Dcu38.d' using 1:2:3  with dots,'gnu2Dcu39.d' using 1:2:3  with dots,'gnu2Dcu40.d' using 1:2:3  with dots,'gnu2Dcu40.d' using 1:2:3  with dots
